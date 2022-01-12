@@ -156,7 +156,7 @@ class OpenADC(util.DisableNewAttr, ChipWhispererCommonInterface):
          *  25dB gain
          *  5000 capture samples
          *  0 sample offset
-         *  rising edge trigger
+         *  rising edge trigger on tio4
          *  7.37MHz clock output on hs2
          *  4*7.37MHz ADC clock
          *  tio1 = serial rx
